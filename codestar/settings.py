@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-yuyizhong-django-blog-q2j7htlj8t.us2.codeanyapp.com',
+    '8001-yuyizhong-django-blog-q2j7htlj8t.us2.codeanyapp.com',
     'ci-blog-wt.herokuapp.com']
 
 
@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'django_summernote',
     'blog',
 ]
 
